@@ -1,0 +1,15 @@
+Exception: System.FormatException
+Message: Input string was not in a correct format.
+Stack Trace:    at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Int32.Parse(String s)
+   at ExceptionHandling.Service.ErrorHandlingClass.Error() in E:\Git\Api\AllExceptionHandling\AllExceptionHandling\Service\ErrorHandlingClass.cs:line 23
+Error Message: The age entered, ghj, is not valid.
+Time: 23-06-2023 15:05:14
+
+Exception: System.ArgumentException
+Message: Value does not fall within the expected range.
+Stack Trace:    at ExceptionHandling.Service.ErrorHandlingClass.GetStringLength(String input) in E:\Git\Api\AllExceptionHandling\AllExceptionHandling\Service\ErrorHandlingClass.cs:line 91
+   at ExceptionHandling.Service.ErrorHandlingClass.stringerror() in E:\Git\Api\AllExceptionHandling\AllExceptionHandling\Service\ErrorHandlingClass.cs:line 51
+Error Message: The input string is empty.
+Time: 23-06-2023 15:05:20
+
